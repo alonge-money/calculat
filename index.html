@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="phone">
+      <div class="around">
+        <div class="screen"><input type="text" id="screen" /></div>
+
+        <div class="btn">
+          <div style="display: flex">
+            <div class="num">
+              <input
+                type="button"
+                onclick="document.getElementById('screen').value=document.getElementById('screen').value+AC"
+                id="AC"
+                value="AC"
+              />
+            </div>
+            <div class="num">
+              <input
+                type="button"
+                onclick="document.getElementById('screen').value=document.getElementById('screen').value+AC"
+                id="AC"
+                value="AC"
+              />
+            </div>
+            <div class="num">
+              <input
+                type="button"
+                onclick="document.getElementById('screen').value=document.getElementById('screen').value+'%'"
+                id="%"
+                value="%"
+              />
+            </div>
+            <div class="num">
+              <input
+                type="button"
+                onclick="document.getElementById('screen').value=document.getElementById('screen').value+'/'"
+                id="/"
+                value="/"
+              />
+            </div>
+          </div>
+          <div style="display: flex">
+            <div class="num">
+              <input
+                type="button"
+                onclick="document.getElementById('screen').value=document.getElementById('screen').value+7"
+                id="7"
+                value="7"
+              />
+            </div>
+            <div class="num">
+              <input
+                type="button"
+                onclick="document.getElementById('screen').value=document.getElementById('screen').value+8"
+                id="8"
+                value="8"
+              />
+            </div>
+            <div class="num">
+              <input
+                type="button"
+                onclick="document.getElementById('screen').value=document.getElementById('screen').value+9"
+                id="9"
+                value="9"
+              />
+            </div>
+            <div class="num">
+              <input
+                type="button"
+                onclick="document.getElementById('screen').value=document.getElementById('screen').value+'*'"
+                id="*"
+                value="*"
+              />
+            </div>
+          </div>
+          <div style="display: flex">
+            <div class="num">
+              <input
+                type="button"
+                onclick="document.getElementById('screen').value=document.getElementById('screen').value+4"
+                id="4"
+                value="4"
+              />
+            </div>
+            <div class="num">
+              <input
+                type="button"
+                onclick="document.getElementById('screen').value=document.getElementById('screen').value+5"
+                id="5"
+                value="5"
+              />
+            </div>
+            <div class="num">
+              <input
+                type="button"
+                onclick="document.getElementById('screen').value=document.getElementById('screen').value+6"
+                id="6"
+                value="6"
+              />
+            </div>
+            <div class="num">
+              <input
+                type="button"
+                onclick="document.getElementById('screen').value=document.getElementById('screen').value+'-'"
+                id="-"
+                value="-"
+              />
+            </div>
+          </div>
+
+          <div style="display: flex">
+            <div class="num">
+              <input
+                type="button"
+                onclick="document.getElementById('screen').value=document.getElementById('screen').value+1"
+                id="1"
+                value="1"
+              />
+            </div>
+            <div class="num">
+              <input
+                type="button"
+                onclick="document.getElementById('screen').value=document.getElementById('screen').value+2"
+                id="2"
+                value="2"
+              />
+            </div>
+            <div class="num">
+              <input
+                type="button"
+                onclick="document.getElementById('screen').value=document.getElementById('screen').value+3"
+                id="3"
+                value="3"
+              />
+            </div>
+            <div class="num">
+              <input
+                type="button"
+                onclick="document.getElementById('screen').value=document.getElementById('screen').value+'+'"
+                id="+"
+                value="+"
+              />
+            </div>
+          </div>
+          <div style="display: flex">
+            <div class="zero">
+              <input
+                type="button"
+                onclick="document.getElementById('screen').value=document.getElementById('screen').value+'0'"
+                id="0"
+                value="0"
+              />
+            </div>
+            <div class="num">
+              <input
+                type="button"
+                onclick="document.getElementById('screen').value=document.getElementById('screen').value+'.'"
+                id="."
+                value="."
+              />
+            </div>
+
+            <div class="num">
+              <input type="button" id="equal" onclick="calculate()" value="=" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="torch"></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
